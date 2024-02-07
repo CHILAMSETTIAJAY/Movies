@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieXTime</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/hyperlink-logo/1.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                Movie<span>Time</span>
+            </a>
+            <a href="#" class="menu-icon">
+                <i class='bx bx-chevrons-left' id="menu-bx"></i>
+                <i class='bx bx-chevrons-right' id="menu-bx-1"></i>
+                <span id="menu-view">Menu</span>
+            </a>
+            <!-- searchbox -->
+            <div class="search-box">
+                <input type="search" name="search-value" id="search-input" placeholder="search here">
+                <i class='bx bx-search-alt'></i>
+            </div>
+            <!--user -->
+            <a href="#" class="user" id="user-img">
+                <span class="login-btn">Join</span>
+                <!-- <img src="images/user/profile.jpg" alt="" class="user-img"  > -->
+            </a>
+            <!-- nav-bar -->
+            <div class="navbar" id="navbar">
+                <a href="index.html" class="nav-link nav-active">
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span class="nav-link-title">Series</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span class="nav-link-title">Favourite</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span class="nav-link-title">History</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="home container" id="home">
+        <img src="images/posters/poster2.jpg" alt="" class="home-img">
+        <div class="home-text">
+            <h1 class="home-title" id="hone-title">
+                Doctor Strange <br> the Multiverse of Madness
+            </h1>
+            <p class="home-info">2022 | PG-13 | 2h 6m</p>
+            <a href="htmls/play.html" class="watch-btn">
+                <i class='bx bx-right-arrow'></i>
+                <span>Watch Now</span>
+            </a>
+        </div>
+        <div class="home-trending">
+            <div class="wrapper">
+                <div class="outer">
+                    <div class="card" style="--delay:-1;">
+                        <div class="content">
+                            <div class="img"><img src="images/posters/poster2.jpg" alt=""></div>
+                            <div class="details">
+                                <span class="name">Doctor Strange</span>
+                                <p>Superhero | 7.3</p>
+                            </div>
+                        </div>
+                        <a href="#">Watch</a>
+                    </div>
+                    <div class="card" style="--delay:0;">
+                        <div class="content">
+                            <div class="img"><img src="images/posters/poster1.jpg" alt=""></div>
+                            <div class="details">
+                                <span class="name">After Earth</span>
+                                <p>Adventure | 7.0</p>
+                            </div>
+                        </div>
+                        <a href="#">Watch</a>
+                    </div>
+                    <div class="card" style="--delay:1;">
+                        <div class="content">
+                            <div class="img"><img src="images/posters/poster3.webp" alt=""></div>
+                            <div class="details">
+                                <span class="name">The Ring</span>
+                                <p>Horror | 7.1</p>
+                            </div>
+                        </div>
+                        <a href="#">Watch</a>
+                    </div>
+                    <div class="card" style="--delay:2;">
+                        <div class="content">
+                            <div class="img"><img src="images/posters/poster6.webp" alt=""></div>
+                            <div class="details">
+                                <span class="name">Predator</span>
+                                <p>Action | 6.9</p>
+                            </div>
+                        </div>
+                        <a href="#">Watch</a>
+                    </div>
+                    <div class="card" style="--delay:2;">
+                        <div class="content">
+                            <div class="img"><img src="images/posters/poster4.jpg" alt=""></div>
+                            <div class="details">
+                                <span class="name">Avengers</span>
+                                <p>Action | 7.9</p>
+                            </div>
+                        </div>
+                        <a href="#">Watch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular container" id="popular">
+        <div class="heading">
+            <h2 class="heading-title">
+                Popular Movies
+            </h2>
+            <a href="./htmls/populormovies.html">
+                <i class='bx bx-chevron-right view-all'></i>
+            </a>
+        </div>
+        <div class="popolar-content swiper">
+            <!-- 1 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster1.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            After Earth
+                        </h1>
+                        <p class="swiper-info">2014 | PG-13 | 1h 44m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster3.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Ring
+                        </h1>
+                        <p class="swiper-info">2002 | PG-16 | 1h 55m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster4.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Avengers: Endgame
+                        </h1>
+                        <p class="swiper-info">2019 | PG-13 | 3h 6m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster5.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Terminator: Dark Fate
+                        </h1>
+                        <p class="swiper-info">2019 | R | 2h 8m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster6.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Predator
+                        </h1>
+                        <p class="swiper-info">1987 | R | 1h 47m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster7.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            300
+                        </h1>
+                        <p class="swiper-info">2006 | R | 1h 57m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster8.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Leo
+                        </h1>
+                        <p class="swiper-info">2023 | PG-13 | 2h 44m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster9.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Mersal
+                        </h1>
+                        <p class="swiper-info">2017 | PG-10 | 2h 52m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- web series -->
+    <section class="popular container" id="popular-web-series">
+        <div class="heading">
+            <h2 class="heading-title">
+                Popular web series
+            </h2>
+            <i class='bx bx-chevron-right view-all'></i>
+        </div>
+        <div class="popolar-content swiper">
+            <!-- 1 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/poster1.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Breaking Bad
+                        </h1>
+                        <p class="swiper-info">2008-13 | PG-13 | 23m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/poster2.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Game of Thrones
+                        </h1>
+                        <p class="swiper-info">2011-13 | PG-16 | 55m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/Mirzapur-poster3.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Mirzapur
+                        </h1>
+                        <p class="swiper-info">2018 | PG-16 | 46m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/The Boys-poster4.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Boys
+                        </h1>
+                        <p class="swiper-info">2019 | R | 48m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/Daredevil-poster5.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Daredevil
+                        </h1>
+                        <p class="swiper-info">2015–18 | R | 47m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/The Walking Dead poster6.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Walking Dead
+                        </h1>
+                        <p class="swiper-info">2010-12 | R | 57m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/Sacred Games poster7.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Sacred Games
+                        </h1>
+                        <p class="swiper-info">2018-19 | PG-18 | 44m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/The Family Man poster8.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Family Man
+                        </h1>
+                        <p class="swiper-info">2019 | PG-12 | 52m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular container" id="popular-anime">
+        <div class="heading">
+            <h2 class="heading-title">
+                Popular Anime
+            </h2>
+            <i class='bx bx-chevron-right view-all'></i>
+        </div>
+        <div class="popolar-content swiper">
+            <!-- 1 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster1.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            After Earth
+                        </h1>
+                        <p class="swiper-info">2014 | PG-13 | 1h 44m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster3.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Ring
+                        </h1>
+                        <p class="swiper-info">2002 | PG-16 | 1h 55m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster4.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Avengers: Endgame
+                        </h1>
+                        <p class="swiper-info">2019 | PG-13 | 3h 6m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster5.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Terminator: Dark Fate
+                        </h1>
+                        <p class="swiper-info">2019 | R | 2h 8m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster6.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Predator
+                        </h1>
+                        <p class="swiper-info">1987 | R | 1h 47m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster7.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            300
+                        </h1>
+                        <p class="swiper-info">2006 | R | 1h 57m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster8.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Leo
+                        </h1>
+                        <p class="swiper-info">2023 | PG-13 | 2h 44m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/poster9.webp" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Mersal
+                        </h1>
+                        <p class="swiper-info">2017 | PG-10 | 2h 52m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- New Realse -->
+    <section class="popular container" id="new-realse">
+        <div class="heading">
+            <h2 class="heading-title">
+                New Realse
+            </h2>
+            <i class='bx bx-chevron-right view-all'></i>
+        </div>
+        <div class="popolar-content swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/The Walking Dead poster6.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Walking Dead
+                        </h1>
+                        <p class="swiper-info">2010-12 | R | 57m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/Mirzapur-poster3.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Mirzapur
+                        </h1>
+                        <p class="swiper-info">2018 | PG-16 | 46m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/The Boys-poster4.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Boys
+                        </h1>
+                        <p class="swiper-info">2019 | R | 48m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/Sacred Games poster7.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Sacred Games
+                        </h1>
+                        <p class="swiper-info">2018-19 | PG-18 | 44m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/poster2.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Game of Thrones
+                        </h1>
+                        <p class="swiper-info">2011-13 | PG-16 | 55m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/Daredevil-poster5.avif" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Daredevil
+                        </h1>
+                        <p class="swiper-info">2015–18 | R | 47m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/The Family Man poster8.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            The Family Man
+                        </h1>
+                        <p class="swiper-info">2019 | PG-12 | 52m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="images/posters/webseries/poster1.jpg" alt="" class="movie-box-img">
+                    </div>
+                    <div class="swiper-text">
+                        <h1 class="swiper-title">
+                            Breaking Bad
+                        </h1>
+                        <p class="swiper-info">2008-13 | PG-13 | 23m</p>
+                        <a href="#" class="watch-btn1">
+                            <i class='bx bx-right-arrow'></i>
+                            <span>Watch Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="singup">
+        <div class="singup">
+            <div class="login-page flex">
+                <div class="welcome-text flex">
+                    <img src="images/logo/logo-w-nobg.png" alt="" class="singup-logo">
+                    <p class="start-msg"></p>
+                </div>
+                <div class="login-area">
+                    <input type="email" placeholder="EMAIL_ID" class="mail" id="email"> <br>
+                    <input type="password" placeholder="PASSWORD" class="password" id="password">
+                    <div class="login-info flex">
+                        <button class="login-btn" id="submitBtn">
+                            submite
+                        </button> <br>
+                        <button class="close-btn" id="closeBtn">
+                            Close
+                        </button>
+                    </div>
+                </div>
+                <div class="guset-area flex">
+                    <div class="msg flex">
+                        <p class="scoial-links">Share on &nbsp;|
+                            <a href="#">
+                                <img src="images/socialmida/fb.ico" alt="" class="scoial-icon" id="s1">
+                            </a>
+                            <a href="#">
+                                <img src="images/socialmida/insta.ico" alt="" class="scoial-icon">
+                            </a>
+                            <a href="#">
+                                <img src="images/socialmida/tw.ico" alt="" class="scoial-icon">
+                        </p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot container">
+            <a href="#">Contact &nbsp;|</a><a href="#">&nbsp;T&C&nbsp;|</a>&nbsp;<img src="images/logo/logo-w-nobg.png"
+                alt="" class="logo-pic">
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
